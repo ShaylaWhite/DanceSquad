@@ -3,7 +3,7 @@ class CreateCompetitions < ActiveRecord::Migration[5.2]
     create_table :competitions do |t|
       t.string :title
       t.string :location
-      t.integer :time
+      t.time :time
       t.string :level
 
       t.timestamps
